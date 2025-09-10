@@ -141,7 +141,7 @@ export default function App() {
 
   const handleRegister = async () => {
     try {
-      const res = await fetch("http://localhost:8000/register", {
+      const res = await fetch("https://ai-quiz-backend-c161.onrender.com/register", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ username, password }),
@@ -164,7 +164,7 @@ export default function App() {
       formData.append("username", username);
       formData.append("password", password);
 
-      const res = await fetch("http://localhost:8000/login", {
+      const res = await fetch("https://ai-quiz-backend-c161.onrender.com/login", {
         method: "POST",
         body: formData,
       });
@@ -208,7 +208,7 @@ export default function App() {
     if (url) formData.append("url", url);
 
     try {
-      const res = await fetch("http://localhost:8000/generate-quiz", {
+      const res = await fetch("https://ai-quiz-backend-c161.onrender.com/generate-quiz", {
         method: "POST",
         body: formData,
       });
