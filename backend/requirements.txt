@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-multipart
+pydantic
+typing-extensions
+openai
+PyPDF2
+python-docx
+beautifulsoup4
+requests
