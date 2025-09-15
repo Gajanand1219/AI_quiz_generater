@@ -32,7 +32,7 @@ app.add_middleware(
 client = AzureOpenAI(
     api_key="your_actual_key_here",
     api_version="2023-03-15-preview",
-    azure_endpoint="https://azureopenaimodel101.openai.azure.com/"
+    azure_endpoint="https://your-resource-name.openai.azure.com/"
 )
 DEPLOYMENT_NAME = "gpt-4o"
 
