@@ -30,7 +30,7 @@ app.add_middleware(
 
 # Azure OpenAI config
 client = AzureOpenAI(
-    api_key="BsUWPGVTL2RhYwZ5zipkhRVMGqYFmNKiZrbVFJRtHTBmS2fjr7ImJQQJ99BBACYeBjFXJ3w3AAABACOGSehi",
+    api_key="your_actual_key_here",
     api_version="2023-03-15-preview",
     azure_endpoint="https://azureopenaimodel101.openai.azure.com/"
 )
